@@ -23,6 +23,16 @@ C:\ProgramData\Beckhoff\TF2000 TwinCAT 3 HMI Server\service\<<YourProjectName>>\
 ## Getting Started
 Activate and run the PLC project, then open Desktop.view in live view using a browser.  The built-in live view will not support downloads. 
 
+## Code Snippet
+```javascript
+function CreateDownloadLink(TargetHtmlHost, FileRelativePath) {
+
+    var html = '<a href=\"' + FileRelativePath + '\" download=\"\">My Download Link </a>';
+    TargetHtmlHost.setContent(html);
+
+}
+```
+
 ## Versions
 * TcXaeShell 3.1.4024.17
 * TE2000 1.12.748.0
