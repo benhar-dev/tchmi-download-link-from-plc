@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <POU Name="MAIN" Id="{83e121c2-c55d-4f27-b73a-4e94f5913a2a}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	fileToServe : STRING := '/Images/Favicon.ico';
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="2" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

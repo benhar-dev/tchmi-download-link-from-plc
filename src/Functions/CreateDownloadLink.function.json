@@ -1,0 +1,42 @@
+﻿{
+  "function": {
+    "name": "CreateDownloadLink",
+    "namespace": "TcHmi.Functions.tchmi_download_link_from_plc",
+    "displayName": "CreateDownloadLink",
+    "description": "",
+    "waitMode": "Synchronous",
+    "category": "",
+    "returnValue": {
+      "type": "tchmi:general#/definitions/Null"
+    },
+    "visible": true,
+    "injectContextObject": false,
+    "arguments": [
+      {
+        "name": "TargetHtmlHost",
+        "displayName": "TargetHtmlHost",
+        "type": "tchmi:framework#/definitions/TcHmiHtmlHost",
+        "description": "",
+        "defaultValue": "",
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      },
+      {
+        "name": "FileRelativePath",
+        "displayName": "FileRelativePath",
+        "type": "tchmi:general#/definitions/String",
+        "description": "",
+        "defaultValue": "",
+        "required": true,
+        "bindable": true,
+        "restParameter": false,
+        "asReference": false,
+        "allowControlAttributeBindingOptions": false
+      }
+    ]
+  },
+  "$schema": "../.hmiframework/Schema/FunctionDescription.Schema.json"
+}
